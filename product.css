@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#content {
+	text-align: center;
+	width: 800px;
+}
+
+div.formPane {
+	text-align: left;
+	padding: 10px;
+	background-color: #F0F0F0;
+}
+
+label {
+	display: block;
+	width: 200px;
+}
+
+#commentsDiv {
+	text-align: left;
+	padding: 5px;
+}
+
+#productInfo {
+	text-align: left;
+	padding: 5px;
+	background-color: #F0F0F0;
+}
+
+#productInfo h3 {
+	padding-left: 20px;
+}
+
+#productPic {
+	background-color: black;
+}
+
+span.productPrice {
+	font-size: 20pt;
+}

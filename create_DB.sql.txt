@@ -1,0 +1,6 @@
+CREATE DATABASE `etap_3`;
+CREATE TABLE `etap_3`.`products` ( 
+`product_ID` INT NOT NULL , 
+`product_Name` VARCHAR(50) NOT NULL , 
+`product_Price` DECIMAL NOT NULL DEFAULT '0.00' ,
+ `product_Sell_Counter` INT NULL DEFAULT '0' ) ENGINE = InnoDB;

@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Страница на продукт - 1 унция златнo Австралийско Кенгуру</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Sample of online internet shop">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Galina Georgieva">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/product.css" />
+		<script type="text/javascript" src="javascript/product.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<h1>1 унция златнo Австралийско Кенгуру</h1> 
+			<span class="productPrice">3189 лв</span>
+			<div id="productInfo">
+				<h3>Основна информация</h3>
+				<ul>					
+					<li>99.99% чисто злато (24 карата)</li>
+					<li>Номинална стойност: 100 австралийски долара</li>
+					<li>Ежегодна промяна на дизайна на основния мотив</li>
+					<li>Двойно щрихован матов ефект</li>
+					<li>Индивидуална защитна пластмасова капсула</li>
+					<li>Законно платежно средство</li>
+					<li>В непрекъснато производство от 1989 г. насам</li>
+					<li>Гарантирано приемане от търговци на благородни метали, банки и инвеститори</li>
+					<li>С инвестиционна и колекционерска стойност</li>
+					<li>Подходящи за подарък</li>
+				</ul>
+			</div>
+			<div id="productPic"><img src="img/products/1.jpg" /></div>
+			<div class="formPane">
+				<form id="sellProduct" onsubmit="return sellProduct();">
+					<label for="product">Продукт:</label> 
+					<input name="product" type="text" id="product" value="1 унция златнo Австралийско Кенгуру" disabled="disabled" size="50" /><br /><!-- -change for current product -->
+					<label for="name">Вашето име:</label> 
+					<input type="text" id="name" name="name" size="50" /><br />
+					<label for="email">Имейл:</label> 
+					<input type="email" id="email" name="email" size="50" /><br />
+					<input type="hidden" name="productId" value="1" />
+					<input type="submit" value="Купи">
+				</form>	
+			</div>	
+			<div id="commentsDiv">
+				<h3>Място за коментари</h3>
+				<div id="comments"></div>
+			</div>
+			<div class="formPane">
+				<form id="commentProduct" onsubmit="return commentProduct();">
+					<label for="comment">Вашия коментар:</label><br /> 
+					<textarea id="comment" name="comment" cols="80" rows="5"></textarea><br />
+					<input type="hidden" name="productId" value="1" />
+					<input type="submit" value="Коментирай">
+				</form>	
+			</div>
+		</div>
+	</body>
+</html>

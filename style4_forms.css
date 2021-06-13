@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#content {
+	text-align: center;
+	width: 800px;
+}
+
+table tr th{
+	font-size: 14pt;
+	text-align: left;
+	background-color: gray;
+	padding: 5px;
+	color: #F0f0f0;
+}
+
+table	img {
+	width: 70px;
+	height: auto;
+}
+td {
+	vertical-align: top;
+}
+
+td.productName {
+	width: 280px;
+}
+
+td.productDescription {
+	width: 400px;
+	background-color: #F0f0f0;
+	font-size: 10pt;
+}
+
+td.productDescription h3 {
+	align: center;
+}
+
+td.productPrice {
+	width: 80px;
+}
+
+td.productPicture {
+	width: 80px;
+	background-color: black;
+}
+
+div.formPane {
+	text-align: left;
+	padding: 10px;
+	background-color: #F0F0F0;
+}
+
+label {
+	display: block;
+	width: 200px;
+}
